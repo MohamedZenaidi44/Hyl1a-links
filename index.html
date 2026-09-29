@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hyl1a — Hub</title>
+<meta name="description" content="Tous les projets de Hyl1a au même endroit : web, gaming, émulation, outils et expérimentations." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<main class="page">
+
+  <section class="profile">
+    <h1 class="name">Hyl1a</h1>
+    <p class="tagline">ptite liste de mes projets</p>
+
+    <a class="github-link" href="https://github.com/MohamedZenaidi44" target="_blank" rel="noreferrer">
+      github.com/MohamedZenaidi44
+    </a>
+
+    <span class="count"><span id="project-count">0</span> projets</span>
+  </section>
+
+  <div class="search-row">
+    <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.6"/><path d="M20 20L16.5 16.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <input id="search-input" class="search-input" type="text" placeholder="chercher un projet..." autocomplete="off" />
+  </div>
+
+  <nav id="category-rail" class="category-rail" aria-label="Filtrer par catégorie"></nav>
+
+  <p id="results-count" class="results-count" hidden></p>
+  <div id="empty-state" class="empty-state" hidden>j’ai rien trouvé pour ça</div>
+
+  <section id="link-list" class="link-list"></section>
+
+</main>
+
+<div id="panel-overlay" class="panel-overlay" hidden>
+  <aside id="detail-panel" class="detail-panel">
+    <button id="panel-close" class="panel-close" aria-label="Fermer">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+    <div id="panel-content" class="panel-content"></div>
+  </aside>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
