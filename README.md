@@ -1,12 +1,12 @@
 # Hyl1a-links
 
-Petite page qui regroupe mes différents projets et sites au même endroit.
+A small page where I keep all my projects and websites in one place.
 
-## Ce que ça fait
+## What is it?
 
-Hyl1a-links permet de retrouver rapidement mes projets, mes sites et mes différents liens depuis une seule page.
+Hyl1a-links brings together my different projects, websites and useful links on a single page.
 
-Pas besoin de chercher dans tous les coins : tout est regroupé ici.
+No need to look everywhere — everything is here.
 
 ## Tech
 
@@ -14,6 +14,4 @@ Pas besoin de chercher dans tous les coins : tout est regroupé ici.
 * CSS
 * JavaScript
 
-## Projet
-
-Fait par Hyl1a.
+Made by Hyl1a.
